@@ -1,0 +1,47 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2? family= Roboto & display=swap');
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    background-color: #77A1B8;
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    text-align: center;
+    background-color: #142B38;
+    color: #408EB8;
+    text-shadow: 1px 1px 5px #00000091;
+    margin: 0px 0px 40px 0px;
+    padding: 20px;
+}
+
+header > h1 {
+    padding: 10px;
+}
+
+main {
+    text-align: center;
+}
+
+div {
+    padding: 20px;
+}
+
+div > p {
+    display: none;
+}
+
+div:hover > p {
+    display: block;
+    font-weight: bold;
+    color: #25536b;
+    transition-duration: 1s;
+}
+
+
